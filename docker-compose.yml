@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+    test:
+      image: "ai"
+      volumes:
+        - .:/app
+      command: bash -c "coverage run -m pytest;EXIT_CODE=$$?;coverage report;coverage html -d coverage/;exit $$EXIT_CODE"
+
+    run:
+      image: "ai"
+      volumes:
+        - .:/app
+      command: /spark/bin/spark-submit --packages com.databricks:spark-xml_2.12:0.18.0,org.postgresql:postgresql:42.7.4 main.py
+
+    postgres:
+      image: pgvector/pgvector:pg17
+      volumes:
+        - ./db:/var/lib/postgresql/data
+      restart: always
+      environment:
+        POSTGRES_DB: 'ai'
+        POSTGRES_USER: 'postgres'
+        POSTGRES_PASSWORD: 'pass1'
+      ports:
+        - '5432:5432'

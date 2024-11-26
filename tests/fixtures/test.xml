@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2024//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_240101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Status="MEDLINE" Owner="NLM">
+            <PMID Version="1">1025</PMID>
+            <DateCompleted>
+                <Year>1976</Year>
+                <Month>02</Month>
+                <Day>09</Day>
+            </DateCompleted>
+            <DateRevised>
+                <Year>2023</Year>
+                <Month>12</Month>
+                <Day>13</Day>
+            </DateRevised>
+            <Article PubModel="Print">
+                <Abstract>
+                    <AbstractText>abc</AbstractText>
+                </Abstract>
+                <Journal>
+                    <ISSN IssnType="Print">0006X</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>67</Volume>
+                        <Issue>2</Issue>
+                        <PubDate>
+                            <Year>1975</Year>
+                            <Month>Nov</Month>
+                            <Day>17</Day>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Biochemical and biophysical research communications</Title>
+                    <ISOAbbreviation>Biochem Biophys Res Commun</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Isolation and purification of cytokininchromatography.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>782-9</MedlinePgn>
+                </Pagination>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Takegami</LastName>
+                        <ForeName>T</ForeName>
+                        <Initials>T</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Yoshida</LastName>
+                        <ForeName>K</ForeName>
+                        <Initials>K</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType UI="D016428">Journal Article</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Biochem Biophys Res Commun</MedlineTA>
+                <NlmUniqueID>0372516</NlmUniqueID>
+                <ISSNLinking>0006-291X</ISSNLinking>
+            </MedlineJournalInfo>
+            <ChemicalList>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D003583">Cytokinins</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D010937">Plant Growth Regulators</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D010940">Plant Proteins</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance UI="D011955">Receptors, Drug</NameOfSubstance>
+                </Chemical>
+            </ChemicalList>
+            <CitationSubset>IM</CitationSubset>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName UI="D003583" MajorTopicYN="N">Cytokinins</DescriptorName>
+                    <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D006863" MajorTopicYN="N">Hydrogen-Ion Concentration</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName UI="D014026" MajorTopicYN="N">Nicotiana</DescriptorName>
+                    <QualifierName UI="Q000032" MajorTopicYN="N">analysis</QualifierName>
+                    <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+                </MeshHeading>
+            </MeshHeadingList>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>1975</Year>
+                    <Month>11</Month>
+                    <Day>17</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>1975</Year>
+                    <Month>11</Month>
+                    <Day>17</Day>
+                    <Hour>0</Hour>
+                    <Minute>1</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>1975</Year>
+                    <Month>11</Month>
+                    <Day>17</Day>
+                    <Hour>0</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>ppublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pubmed">1025</ArticleId>
+                <ArticleId IdType="pii">0006-291X(75)90881-5</ArticleId>
+                <ArticleId IdType="doi">10.1016/0006-291x(75)90881-5</ArticleId>
+            </ArticleIdList>
+        </PubmedData>
+    </PubmedArticle>
+</PubmedArticleSet>
